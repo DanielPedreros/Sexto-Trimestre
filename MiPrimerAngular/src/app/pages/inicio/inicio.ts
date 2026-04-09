@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-inicio',
-  imports: [],
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './inicio.html',
   styleUrl: './inicio.css',
 })
